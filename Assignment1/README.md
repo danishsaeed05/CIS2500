@@ -44,16 +44,16 @@ _Functions_
        you have dynamically allocated that has enough space to hold the array.
 - void set2DElement ( int *array, int row, int col, int value )
     o This function places a value in the array. The parameters are:
-       ▪ The data structure allocated using create2DArray()
-       ▪ The row location where the value will be stored
-       ▪ The column location where the value will be stored
-       ▪ The value to be placed in the array
+       * The data structure allocated using create2DArray()
+       * The row location where the value will be stored
+       * The column location where the value will be stored
+       * The value to be placed in the array
 
 - int get2DElement ( int *array, int row, int col )
     o This function returns a value from the array. The parameters are:
-       ▪ The _data structure_ allocated using create2DArray()
-       ▪ The _row location_ where the value is stored
-       ▪ The _column location_ where the value is stored
+       * The _data structure_ allocated using create2DArray()
+       * The _row location_ where the value is stored
+       * The _column location_ where the value is stored
 - void free2DArray ( int *array )
     o This function frees the memory allocated by create2DArray(). The single
        parameter is the _data structure_ allocated using create2DArray()
@@ -72,20 +72,20 @@ _Functions_
     o This function stores a string in the array. The string passed into the function
        must have memory already allocated for it and must already be copied into that
        space. The parameters are:
-          ▪ The _array of strings_ allocated using createStringArray()
-          ▪ The _location_ in the array where the string will be stored
-          ▪ The _string_ to store in the array
+          * The _array of strings_ allocated using createStringArray()
+          * The _location_ in the array where the string will be stored
+          * The _string_ to store in the array
 
 - char *getStringArray ( char **array, int index )
     o This function returns a string from the array. The parameters are:
-       ▪ The _array of strings_ allocated using createStringArray()
-       ▪ The _location_ in the array where the string is stored
+       * The _array of strings_ allocated using createStringArray()
+       * The _location_ in the array where the string is stored
 
 - void freeStringArray ( char **array, int number )
     o This function frees the memory allocated using createStringArray() **and** any
        strings stored in the array. The parameters are:
-          ▪ The _array of strings_ allocated using createStringArray()
-          ▪ The _size_ of the array
+          * The _array of strings_ allocated using createStringArray()
+          * The _size_ of the array
 
 
 **Part 3: Create a Two-Dimensional Array**
@@ -101,8 +101,8 @@ _Functions_
        
 - void freeArray ( int **array, int rows, int cols )
     o The parameters to this function are:
-       ▪ The _array_ created by createArray()
-       ▪ The _number of rows_ in the array
-       ▪ The _number of cols_ in the array
+       * The _array_ created by createArray()
+       * The _number of rows_ in the array
+       * The _number of cols_ in the array
 
 
